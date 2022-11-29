@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'RockwellBold';
+    src: url('../_fonts/RockwellBold/RockwellBold.woff2') format('woff2'),
+         url('../_fonts/RockwellBold/RockwellBold.woff') format('woff'),
+         url('../_fonts/RockwellBold/RockwellBold.ttf') format('truetype');
+         
+}
+
+body { 
+    background-color:rgb(205, 220, 223); 
+    --nav-font: 'RockwellBold';
+    text-align: center;
+}
+
+h1 {
+    margin-top:2em;
+    font-size: 44px;
+    margin-bottom: 1.5em;
+    text-emphasis: none;
+    
+    
+    
+}
+
+h2 {
+    color: rgb(45, 70, 117);
+    margin-top:2em;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(45, 70, 117);
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+h3 {
+    color: rgb(45, 70, 117);
+    margin-top:2em;
+    margin-left: 25vw;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(45, 70, 117);
+    box-sizing: border-box;
+    display: inline-block;
+    
+    
+}
+
+p {
+    
+    font-family: Tahoma, Arial, sans-serif;
+    
+}
+
+.meText {
+    border-style: outset;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 2vh 2vw;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(152, 194, 194);
+    
+}
+img {
+    height: 18%;
+    width: 18%;
+    border-style: outset;
+    border-color:rgb(152, 194, 194);
+    border-width: thick;
+    
+}
+.GBA {
+    width: 25%;
+    height: 25%;
+}
+.PAC {
+    width:30%;
+    height:30%;
+}
+.resume {
+    text-align: left;
+    padding-left: 30vw;
+    margin-right: 0;
+    font-size: 18px;
+    border-style: none;
+    background-color: rgb(205, 220, 223);
+}
+.project {
+    border-style: outset;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 2vh 2vw;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(152, 194, 194);
+}
+
+.smallInfo {
+    
+    font-size: 16px;
+}
+.bolded {
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.italics {
+    font-style:italic;
+    font-size:18px;
+}
+.lastName {
+    color: rgb(45, 70, 117);
+}
+
+.topnav { overflow: hidden;
+    background-color: rgb(152, 194, 194);
+    text-align: center;
+    font-family: var(--nav-font);
+    
+}
+.topnav a {
+    
+    color:rgb(45, 70, 117);
+    text-align: center;
+    padding: 2vh 5vw;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+.topnav a:hover {
+    
+    color: rgb(45, 70, 117);
+    text-decoration: underline;
+}
+.topnav a.active {
+    background-color: rgb(128, 165, 165);
+    color: rgb(45, 70, 117);
+    text-decoration: underline 
+}
+a {
+    color:rgb(45, 70, 117);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(45, 70, 117);
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(45, 70, 117);
+}
